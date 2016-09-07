@@ -61,3 +61,6 @@ function getData() {
     return data;
 }
 
+function getJsonData() {
+    return JSON.stringify(getData());
+}
