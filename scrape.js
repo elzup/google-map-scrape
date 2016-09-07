@@ -23,6 +23,7 @@ function getData() {
     var dayStrJa = ['月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '土曜日', '日曜日'];
     data.name = document.getElementsByTagName('h1')[0].innerHTML;
     data.address = document.querySelector('.widget-pane-section-info span span span span').innerHTML;
+    // data.coordinates = location.pathname.split('/')[4].replace('@', '').replace('z', '').split(',');
 
     // 営業時間
     var workings = {}
